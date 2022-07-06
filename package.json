@@ -1,0 +1,26 @@
+{
+    "name": "evelyn",
+    "version": "0.0.1",
+    "description": "Fan website about Evelyn",
+    "scripts": {
+        "start": "parcel index.html --host=0.0.0.0 --port=8080",
+        "build": "parcel build index.html"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/gifaldyazkaa/evelyn.git"
+    },
+    "homepage": "https://evelyn.falcxxdev.ml",
+    "author": "Gifaldy Azka <me@falcxxdev.ml>",
+    "license": "MIT",
+    "devDependencies": {
+        "@parcel/core": "^2.6.2",
+        "@parcel/transformer-sass": "^2.6.2",
+        "@parcel/transformer-vue": "^2.6.2",
+        "parcel": "^2.6.2"
+    },
+    "dependencies": {
+        "vue": "^3.2.37",
+        "vue-router": "^4.1.1"
+    }
+}
