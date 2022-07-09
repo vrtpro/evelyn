@@ -32,6 +32,15 @@
             quis voluptatem? Corrupti, deleniti.
         </p>
     </div>
+    <p class="fira-sans wip">
+        Work in progress project. See
+        <a href="https://github.com/gifaldyazkaa/evelyn/projects/1" target="_blank">Project Roadmap Tracker</a> or
+        <a href="https://github.com/gifaldyazkaa/evelyn/projects/2" target="_blank">UI Design Roadmap</a> for more
+        progress details about this project.
+    </p>
+    <p class="fira-sans wip mb-3">
+        This website is non-commercial and MIT Licensed. Website is created for tribute-purpose.
+    </p>
 </template>
 
 <script lang="ts">
@@ -63,5 +72,11 @@ p {
 }
 .fira-sans {
     font-family: $fira_sans;
+}
+.wip {
+    font-size: 12px;
+}
+.mb-3 {
+    margin-bottom: 5px;
 }
 </style>
