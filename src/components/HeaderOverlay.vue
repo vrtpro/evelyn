@@ -15,9 +15,11 @@ export default {
 </script>
 
 <template>
-    <Overlay v-if="render" @click="() => $emit('toggle')">
-        <Header toggleIcon="eva:close-outline" />
-    </Overlay>
+    <transition name="overlay">
+        <Overlay v-if="render" @click.self="() => $emit('toggle')">
+            <Header v-if="render" @toggle="() => $emit('toggle')" toggleIcon="eva:close-outline" />
+        </Overlay>
+    </transition>
 </template>
 
 <style lang="scss">
@@ -48,6 +50,15 @@ export default {
                 padding: 20px;
                 gap: 20px;
             }
+        }
+        transition: transform 0.3s;
+        transform: translateY(0%);
+    }
+
+    &-enter-from,
+    &-leave-to {
+        header {
+            transform: translateY(-100%);
         }
     }
 }
