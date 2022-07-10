@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory, Router } from 'vue-router';
+import NProgress from 'nprogress';
 import '../types/routes.d';
 
 import Home from '../pages/Home.vue';
@@ -18,6 +19,7 @@ const router: Router = createRouter({
 });
 
 router.beforeResolve((to, from, next) => {
+    if (to.name) NProgress.start();
     const nearestWithTitle: any = to.matched
         .slice()
         .reverse()
@@ -48,6 +50,10 @@ router.beforeResolve((to, from, next) => {
         })
         .forEach(tag => document.head.appendChild(tag));
     next();
+});
+
+router.afterEach((to, from) => {
+    NProgress.done();
 });
 
 export default router;
