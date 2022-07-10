@@ -3,8 +3,8 @@
     "version": "0.0.1",
     "description": "Fan website about Evelyn",
     "scripts": {
-        "start": "parcel index.html --host=0.0.0.0 --port=8080",
-        "build": "parcel build index.html"
+        "start": "parcel src/index.html --host=0.0.0.0 --port=8080",
+        "build": "parcel build src/index.html"
     },
     "repository": {
         "type": "git",
