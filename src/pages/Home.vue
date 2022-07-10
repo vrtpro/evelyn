@@ -1,6 +1,6 @@
 <template>
     <Container>
-        <h1>Hello, {{ name }}</h1>
+        <!-- <h1>Hello, {{ name }}</h1>
         <p>
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis amet consequatur ut odio veniam
             laudantium, reprehenderit laboriosam perspiciatis a! Temporibus eum porro labore dolorum expedita optio,
@@ -41,7 +41,7 @@
         </p>
         <p class="fira-sans wip mb-3">
             This website is non-commercial and MIT Licensed. Website is created for tribute-purpose.
-        </p>
+        </p> -->
     </Container>
 </template>
 
