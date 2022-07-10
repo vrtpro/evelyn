@@ -1,9 +1,11 @@
 <script>
+import { Icon } from '@iconify/vue';
 import Container from './Container.vue';
 export default {
     name: 'Header',
     components: {
         Container,
+        Icon,
     },
 };
 </script>
@@ -20,6 +22,9 @@ export default {
                     <li><router-link to="#">About</router-link></li>
                 </ul>
             </nav>
+            <button>
+                <Icon icon="charm:menu-hamburger" width="28" height="28" />
+            </button>
         </Container>
     </header>
 </template>
@@ -51,7 +56,7 @@ header {
             @include on-tablet {
                 gap: 40px;
             }
-            @include on-tablet {
+            @include on-mobile {
                 display: none;
             }
 
@@ -61,6 +66,12 @@ header {
                     font-weight: 700;
                 }
             }
+        }
+    }
+    button {
+        display: none;
+        @include on-mobile {
+            display: block;
         }
     }
 
