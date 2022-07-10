@@ -16,3 +16,13 @@ a {
 ul {
     list-style: none;
 }
+button {
+    display: block;
+    line-height: 0;
+    background: none;
+    border: none;
+    border-radius: 5px;
+    padding: 4px;
+    background: rgba($white, 0.4);
+    // TODO background blur
+}
