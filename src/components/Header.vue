@@ -1,9 +1,9 @@
 <script>
-import { Icon } from '@iconify/vue';
 import Container from './Container.vue';
 import Overlay from './Overlay.vue';
 import Nav from './Nav.vue';
-import Overlay from './Overlay.vue';
+
+import Icon from '../shared/Icon.vue';
 
 export default {
     name: 'Header',
@@ -14,9 +14,9 @@ export default {
     },
     components: {
         Container,
+        Overlay,
         Icon,
         Nav,
-        Overlay,
     },
 };
 </script>
@@ -28,7 +28,7 @@ export default {
             <Nav />
             <Overlay v-if="open" @click="() => (open = false)" />
             <button @click="() => (open = true)">
-                <Icon icon="charm:menu-hamburger" width="28" height="28" />
+                <Icon name="charm:menu-hamburger" />
             </button>
         </Container>
     </header>
