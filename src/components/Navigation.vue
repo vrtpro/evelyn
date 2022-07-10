@@ -1,6 +1,6 @@
 <script>
 export default {
-    name: 'Nav',
+    name: 'Navigation',
 };
 </script>
 
@@ -31,9 +31,6 @@ nav {
         @include on-tablet {
             gap: 40px;
         }
-        @include on-mobile {
-            display: none;
-        }
 
         li {
             a {
@@ -41,6 +38,10 @@ nav {
                 font-weight: 700;
             }
         }
+    }
+
+    @include on-mobile {
+        display: none;
     }
 }
 </style>
