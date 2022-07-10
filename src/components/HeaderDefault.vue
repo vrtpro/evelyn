@@ -3,6 +3,7 @@ import Container from './Container.vue';
 import Navigation from './Navigation.vue';
 
 import Icon from '../shared/Icon.vue';
+import logo from '../assets/logo.png';
 
 export default {
     name: 'HeaderDefault',
@@ -17,13 +18,22 @@ export default {
         Icon,
     },
     emits: ['toggle'],
+    data() {
+        return {
+            logo,
+        };
+    },
 };
 </script>
 
 <template>
     <header>
         <Container>
-            <h1><router-link to="#">Evelyn Logo</router-link></h1>
+            <h1>
+                <router-link to="#">
+                    <img :src="logo" alt="Evelyn Logo" />
+                </router-link>
+            </h1>
             <button @click="() => $emit('toggle')">
                 <Icon :name="toggleIcon" />
             </button>
@@ -46,6 +56,9 @@ header {
 
     h1 {
         font-size: 20px;
+        img {
+            height: 60px;
+        }
     }
 
     button {
