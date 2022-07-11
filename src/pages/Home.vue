@@ -21,20 +21,4 @@ h1 {
 p {
     font-family: $poppins;
 }
-
-.lexend {
-    font-family: $lexend;
-}
-.poppins {
-    font-family: $poppins;
-}
-.fira-sans {
-    font-family: $fira_sans;
-}
-.wip {
-    font-size: 12px;
-}
-.mb-3 {
-    margin-bottom: 5px;
-}
 </style>
