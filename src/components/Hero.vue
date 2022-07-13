@@ -2,7 +2,7 @@
 import Container from './Container.vue';
 import Button from '../shared/Button.vue';
 export default {
-    nama: 'Hero',
+    name: 'Hero',
     components: {
         Container,
         Button,
