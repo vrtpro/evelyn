@@ -1,9 +1,11 @@
 <script>
 import Container from './Container.vue';
+import Button from '../shared/Button.vue';
 export default {
     nama: 'Hero',
     components: {
         Container,
+        Button,
     },
 };
 </script>
@@ -13,6 +15,7 @@ export default {
         <Container>
             <p>Hai Halo! I'm Evelyn but you can call me Epel~</p>
             <h1>I am aspire to become your best mood booster!</h1>
+            <Button to="#">Join Epelables</Button>
         </Container>
     </section>
 </template>
