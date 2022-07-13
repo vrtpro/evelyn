@@ -1,16 +1,16 @@
-<template>
-    <Container></Container>
-</template>
-
-<script lang="ts">
-import Container from '../components/Container.vue';
+<script>
+import Hero from '../components/Hero.vue';
 export default {
     name: 'Home',
     components: {
-        Container,
+        Hero,
     },
 };
 </script>
+
+<template>
+    <Hero />
+</template>
 
 <style lang="scss">
 @import '../styles/variable';
