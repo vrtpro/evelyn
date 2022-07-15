@@ -1,0 +1,28 @@
+// Scrollbar
+::-webkit-scrollbar {
+    width: 5px;
+}
+::-webkit-scrollbar-track {
+    background-color: $pink;
+}
+::-webkit-scrollbar-thumb {
+    background-color: $cyan;
+}
+::-webkit-scrollbar-thumb:hover {
+    $cyan-hover: #65b8c5;
+    background-color: $cyan-hover;
+}
+::-webkit-scrollbar-thumb:active {
+    $cyan-active: #539da9;
+    background-color: $cyan-active;
+}
+
+// Selection
+::-moz-selection {
+    color: $black;
+    background: $cyan;
+}
+::selection {
+    color: $black;
+    background: $cyan;
+}
