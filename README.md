@@ -1,10 +1,18 @@
 # Evelyn Fan website
 
-Fan-made SPA (Single Page Application) Website for [Evelyn](https://youtube.com/c/HaiHaloEpel). Created with [Vue.js](https://vuejs.org) + [TypeScript](https://typescriptlang.org) + [SASS](https://sass-lang.com). Now it's heavily maintained at Development Production.
+Fan-made SPA (Single Page Application) website for [Evelyn](https://youtube.com/c/HaiHaloEpel). Created with [Vue.js](https://vuejs.org) + [TypeScript](https://typescriptlang.org) + [SASS](https://sass-lang.com). Now it's heavily maintained at Development Production.
 
 ## Project philosophy
 
-The beginning of this project was made to introduce [Evelyn](https://youtube.com/c/HaiHaloEpel) to a larger audience with a website. It was also made for tribute purposes. Besides the formal reason, another reason is that the project owner simps her. And he has a passion to build and develop this project. Keep in mind that this project is non-commercial, Licensed by [MIT License](./LICENSE), and Free-to-use (Edit, Modify, Redistribute) as long as the project owner's credit, and the names of volunteers & contributors are listed and included.
+The beginning of this project was made to introduce [Evelyn](https://youtube.com/c/HaiHaloEpel) to a larger audience with a website. It was also made for tribute purposes. Besides the formal reason, another reason is that the project owner simps her. And he has a passion to build and develop this project. Keep in mind that this project is non-commercial, Licensed with [MIT License](./LICENSE), and Free-to-use (Modify, Distribute, Private use) as long as the project owner's credit, and the names of volunteers & contributors are listed and included.
+
+## Deployments
+
+This project was accessible via these sub-domain.
+
+-   \[Main] https://evelyn.falcxxdev.ml/
+-   \[Alias] https://epel.falcxxdev.ml/
+-   \[Origin] https://evelyn-nu.vercel.app/
 
 ## Credits
 
