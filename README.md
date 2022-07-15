@@ -8,7 +8,7 @@ The beginning of this project was made to introduce [Evelyn](https://youtube.com
 
 ## Deployments
 
-This project was accessible via these sub-domain.
+This project are accessible via these sub-domain.
 
 -   \[Main] https://evelyn.falcxxdev.ml/
 -   \[Alias] https://epel.falcxxdev.ml/
