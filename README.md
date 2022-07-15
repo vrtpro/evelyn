@@ -14,6 +14,10 @@ This project are accessible via these sub-domain.
 -   \[Alias] https://epel.falcxxdev.ml/
 -   \[Origin] https://evelyn-nu.vercel.app/
 
+## Project progress
+
+See our progress for this project. You can see and track our [Project Roadmap](https://github.com/gifaldyazkaa/evelyn/projects/1) in General, or [UI Roadmap](https://github.com/gifaldyazkaa/evelyn/projects/2) for this project. You can see our To-do list, In progress, and Done things there.
+
 ## Credits
 
 A big thanks to all the volunteers and contributors listed below. They are helping and made a huge changes to this project. Without these contributors, this project would not have been completed as expected. Once again, thanks!
