@@ -30,7 +30,7 @@ export default {
     <header>
         <Container>
             <h1>
-                <router-link to="#">
+                <router-link :to="{ name: 'Home' }">
                     <img :src="logo" alt="Evelyn Logo" />
                 </router-link>
             </h1>
