@@ -9,7 +9,7 @@ export default {
         <ul>
             <li><router-link :to="{ name: 'Home' }">Home</router-link></li>
             <li><router-link to="#">About</router-link></li>
-            <li><router-link to="#">Fan art</router-link></li>
+            <li><router-link :to="{ name: 'Fanart' }">Fan art</router-link></li>
         </ul>
     </nav>
 </template>
