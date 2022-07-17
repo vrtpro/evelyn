@@ -14,9 +14,9 @@ const routes: Routes = [
     },
     {
         path: '/fanart',
-        name: 'FanArt',
+        name: 'Fanart',
         component: FanArt,
-        meta: { title: 'Fan Art | EpelEvelyn' },
+        meta: { title: 'Fan art | EpelEvelyn' },
     },
 ];
 
