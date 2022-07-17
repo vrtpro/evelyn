@@ -1,6 +1,6 @@
 # Evelyn Fan website
 
-Fan-made SPA (Single Page Application) website for [Evelyn](https://youtube.com/c/HaiHaloEpel). Created with [Vue.js](https://vuejs.org) + [TypeScript](https://typescriptlang.org) + [SASS](https://sass-lang.com). Now it's heavily maintained at Development Production.
+Fan-made SPA (Single Page Application) website for [Evelyn](https://youtube.com/c/HaiHaloEpel). Created with [Vue.js](https://vuejs.org) + [TypeScript](https://typescriptlang.org) + [SASS](https://sass-lang.com). Now it's heavily maintained at Development environment.
 
 ## Project philosophy
 
