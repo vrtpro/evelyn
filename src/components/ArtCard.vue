@@ -31,7 +31,7 @@ export default {
 @import '../styles/variable';
 
 .card {
-    max-width: 360px;
+    max-width: 100%;
     aspect-ratio: 3/ 2;
     border-radius: 15px;
     position: relative;

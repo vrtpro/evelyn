@@ -20,6 +20,7 @@ export default {
     height: 100%;
     transition: background 0.3s;
     background: rgba($black, 0.4);
+    z-index: 10;
 
     &-enter-from,
     &-leave-to {
