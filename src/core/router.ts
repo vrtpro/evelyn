@@ -3,6 +3,7 @@ import { Routes } from '../types/routes.d';
 import NProgress from 'nprogress';
 
 import Home from '../pages/Home.vue';
+import FanArt from '../pages/FanArt.vue';
 
 const routes: Routes = [
     {
@@ -10,6 +11,12 @@ const routes: Routes = [
         name: 'Home',
         component: Home,
         meta: { title: 'Home | EpelEvelyn' },
+    },
+    {
+        path: '/fanart',
+        name: 'FanArt',
+        component: FanArt,
+        meta: { title: 'Fan Art | EpelEvelyn' },
     },
 ];
 
