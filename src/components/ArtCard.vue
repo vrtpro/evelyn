@@ -6,7 +6,7 @@ export default {
 
 <template>
     <div class="card">
-        <img class="card-img" src="https://pbs.twimg.com/media/FRmAB6yagAI0br0.jpg" alt="Art image" />
+        <img src="https://pbs.twimg.com/media/FRmAB6yagAI0br0.jpg" alt="Art image" />
         <div class="desc">
             <p class="artist">@elainecelestia</p>
         </div>
@@ -15,34 +15,29 @@ export default {
 
 <style lang="scss">
 .card {
-    background-color: #000;
-    width: 374px;
-    height: 216px;
+    max-width: 360px;
+    aspect-ratio: 3/ 2;
     border-radius: 15px;
-    position: absolute;
+    position: relative;
+    overflow: hidden;
     img {
         display: block;
-        width: auto;
-        height: 216px;
+        width: 100%;
     }
     .desc {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        align-items: flex-start;
-        padding: 8px 16px 10px;
-        gap: 10px;
-        font-family: 'Lexend', sans-serif;
+        padding: 8px 0 10px 0;
+        text-align: center;
+        font-weight: 700;
+        font-size: 14px;
+        text-decoration: underline;
 
         position: absolute;
-        height: 20px;
         left: 0px;
         right: 0px;
         bottom: 0px;
 
-        background: rgba(217, 217, 217, 0.5);
+        background: rgba(#d9d9d9, 0.5);
         backdrop-filter: blur(6px);
-        border-radius: 15px 0 15px 0;
     }
 }
 </style>
