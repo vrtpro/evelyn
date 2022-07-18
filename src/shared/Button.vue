@@ -1,12 +1,12 @@
 <script>
 export default {
-    nama: 'Button',
+    name: 'Button',
 };
 </script>
 <template>
-    <router-link class="button">
+    <a class="button">
         <slot />
-    </router-link>
+    </a>
 </template>
 <style lang="scss">
 @import '../styles/mixin';
