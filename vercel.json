@@ -2,5 +2,15 @@
     "github": {
         "silent": true
     },
-    "rewrites": [{ "source": "/(.*)", "destination": "/" }]
+    "rewrites": [{ "source": "/(.*)", "destination": "/" }],
+    "redirects": [
+        {
+            "source": "/youtube",
+            "destination": "https://www.youtube.com/c/HaiHaloEpel"
+        },
+        {
+            "source": "/discord",
+            "destination": "https://bit.ly/HaiHaloServer"
+        }
+    ]
 }
