@@ -20,7 +20,7 @@ export default {
 
 <template>
     <div class="card">
-        <img :src="img" alt="Art image" />
+        <img :src="img" :alt="`Art by ${artist}`" />
         <div class="desc">
             <a :href="artistUrl">{{ artist }}</a>
         </div>
@@ -56,8 +56,9 @@ export default {
         backdrop-filter: blur(6px);
         a {
             color: $black;
+            transition: 0.1s ease-in-out;
             &:hover {
-                color: $black;
+                color: $pink-dark;
             }
             &:active {
                 color: $black;
