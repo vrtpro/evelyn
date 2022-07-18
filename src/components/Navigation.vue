@@ -47,7 +47,8 @@ nav {
         display: none;
     }
     .router-link-exact-active {
-        color: $cyan-dark !important;
+        color: $cyan-dark;
+        text-decoration: underline;
     }
 }
 </style>
