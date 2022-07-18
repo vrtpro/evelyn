@@ -25,7 +25,7 @@ export default {
                     I am aspire to become<br />
                     your best mood booster!
                 </h1>
-                <Button to="#">Join Epelables</Button>
+                <Button to="/youtube">Join Epelables</Button>
             </div>
         </Container>
     </section>
@@ -33,6 +33,7 @@ export default {
 
 <style lang="scss">
 @import '../styles/mixin';
+@import '../styles/variable';
 
 .hero {
     overflow: hidden;
@@ -93,6 +94,18 @@ export default {
                 br {
                     display: initial;
                 }
+            }
+        }
+        .button {
+            transition: 0.2s ease-in-out;
+            // box-shadow: 5px 10px $black;
+            display: inline-block;
+            position: relative;
+            &:hover {
+                transform: translateY(5px);
+            }
+            &:active {
+                box-shadow: 0 -5px 5px -5px $black, -5px 0 5px -5px $black;
             }
         }
     }
