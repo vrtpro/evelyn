@@ -1,11 +1,18 @@
 <script>
 import Container from './Container.vue';
 import Button from '../shared/Button.vue';
+import socials from '../data/socials';
+
 export default {
     name: 'Hero',
     components: {
         Container,
         Button,
+    },
+    data() {
+        return {
+            socials,
+        };
     },
 };
 </script>
@@ -25,7 +32,7 @@ export default {
                     I am aspire to become<br />
                     your best mood booster!
                 </h1>
-                <Button to="/youtube">Join Epelables</Button>
+                <Button :href="socials.youtube">Join Epelables</Button>
             </div>
         </Container>
     </section>
