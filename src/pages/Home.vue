@@ -11,14 +11,3 @@ export default {
 <template>
     <Hero />
 </template>
-
-<style lang="scss">
-@import '../styles/variable';
-
-h1 {
-    font-family: $lexend;
-}
-p {
-    font-family: $poppins;
-}
-</style>
