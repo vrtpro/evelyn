@@ -8,7 +8,7 @@ export default {
     <nav>
         <ul>
             <li><router-link :to="{ name: 'Home' }">Home</router-link></li>
-            <li><router-link to="#">About</router-link></li>
+            <li><router-link :to="{ name: 'About' }">About</router-link></li>
             <li><router-link :to="{ name: 'Fanart' }">Fan art</router-link></li>
         </ul>
     </nav>
@@ -35,12 +35,19 @@ nav {
             a {
                 font-size: 16px;
                 font-weight: 700;
+                transition: 0.2s ease-in-out;
+                &:hover {
+                    color: $cyan-dark;
+                }
             }
         }
     }
 
     @include on-mobile {
         display: none;
+    }
+    .router-link-exact-active {
+        color: $cyan-dark !important;
     }
 }
 </style>
