@@ -4,19 +4,26 @@ import NProgress from 'nprogress';
 
 import Home from '../pages/Home.vue';
 import FanArt from '../pages/FanArt.vue';
+import About from '../pages/About.vue';
 
 const routes: Routes = [
     {
         path: '/',
         name: 'Home',
         component: Home,
-        meta: { title: 'Home | EpelEvelyn' },
+        meta: { title: 'Home | Hai Halo Epel' },
+    },
+    {
+        path: '/about',
+        name: 'About',
+        component: About,
+        meta: { title: 'About | Hai Halo Epel' },
     },
     {
         path: '/fanart',
         name: 'Fanart',
         component: FanArt,
-        meta: { title: 'Fan art | EpelEvelyn' },
+        meta: { title: 'Fan art | Hai Halo Epel' },
     },
 ];
 
