@@ -1,4 +1,6 @@
-const arts = [
+import { Arts } from '../types/data/arts.d';
+
+const arts: Arts = [
     {
         img: 'https://pbs.twimg.com/media/FRmAB6yagAI0br0.jpg',
         artist: {
