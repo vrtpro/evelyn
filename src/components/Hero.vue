@@ -103,18 +103,6 @@ export default {
                 }
             }
         }
-        .button {
-            transition: 0.2s ease-in-out;
-            // box-shadow: 5px 10px $black;
-            display: inline-block;
-            position: relative;
-            &:hover {
-                transform: translateY(5px);
-            }
-            &:active {
-                box-shadow: 0 -5px 5px -5px $black, -5px 0 5px -5px $black;
-            }
-        }
     }
     .model {
         justify-self: center;
