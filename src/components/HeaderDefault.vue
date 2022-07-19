@@ -63,6 +63,7 @@ header {
 
     button {
         display: none;
+        cursor: pointer;
 
         @include on-mobile {
             display: block;
