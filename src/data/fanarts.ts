@@ -43,6 +43,27 @@ const arts: Arts = [
             url: 'https://twitter.com/MerySyafira48',
         },
     },
+    {
+        img: 'https://pbs.twimg.com/media/E_jg_FKVUAAJOf_.jpg',
+        artist: {
+            username: '@aditchris',
+            url: 'https://twitter.com/aditchris',
+        },
+    },
+    {
+        img: 'https://pbs.twimg.com/media/Ef14v6hUEAEn7yH.jpg',
+        artist: {
+            username: '@Acacia_Leafs',
+            url: 'https://twitter.com/Acacia_Leafs',
+        },
+    },
+    {
+        img: 'https://pbs.twimg.com/media/EmJ8YMGVgAYQG3p.jpg',
+        artist: {
+            username: '@SakurarinMochi',
+            url: 'https://twitter.com/SakurarinMochi',
+        },
+    },
 ];
 
 export default arts;
