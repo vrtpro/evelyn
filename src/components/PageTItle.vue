@@ -14,6 +14,8 @@ export default {
 
 <style lang="scss">
 @import '../styles/variable';
+@import '../styles/mixin';
+
 .page-title {
     color: $black;
     margin-bottom: 20px;
@@ -24,6 +26,23 @@ export default {
     p {
         font-family: $fira-sans;
         font-size: 18px;
+    }
+
+    @include on-tablet {
+        h1 {
+            font-size: 36px;
+        }
+        p {
+            font-size: 16px;
+        }
+    }
+    @include on-mobile {
+        h1 {
+            font-size: 32px;
+        }
+        p {
+            font-size: 14px;
+        }
     }
 }
 </style>
