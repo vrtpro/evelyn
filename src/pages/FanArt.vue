@@ -1,6 +1,6 @@
 <script>
 import Container from '../components/Container.vue';
-import PageTitle from '../components/PageTItle.vue';
+import PageTitle from '../components/PageTitle.vue';
 import ArtCard from '../components/ArtCard.vue';
 import ArtList from '../components/ArtList.vue';
 import arts from '../data/fanarts.ts';
@@ -37,4 +37,8 @@ export default {
     </section>
 </template>
 
-<style lang="scss"></style>
+<style lang="scss">
+.container {
+    margin-bottom: 20px;
+}
+</style>
