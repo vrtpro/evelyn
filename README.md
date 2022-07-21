@@ -2,7 +2,7 @@
 
 ## 🧠 Project philosophy
 
-The beginning of this project was made to introduce [Evelyn](https://youtube.com/c/HaiHaloEpel) to a larger audience with a website. It was also made for tribute purposes. Besides the formal reason, another reason is that the project owner simps her. Keep in mind that this project is non-commercial, Licensed with [MIT License](./LICENSE), and Free-to-use (Modify, Distribute, Private use) as long as the project owner's credit, and the names of volunteers & contributors are listed and included.
+The beginning of this project was made to introduce [Evelyn](https://youtube.com/c/HaiHaloEpel) to a larger audience with a website. It was also made for tribute purposes. Besides the formal reason, another reason is that the project owner simps her. Keep in mind that this project is non-commercial and Free-to-use (Modify, Distribute, Private use) as long as the project owner's credit, and the names of contributors included.
 
 ## 🚧 Project progress
 
@@ -18,4 +18,4 @@ A big thanks to all contributors listed below. They are helping and made a huge 
 
 ## 📃 License
 
-[Evelyn website](#) is Licensed under [MIT License](./LICENSE)
+[Evelyn website](#) is Licensed under [MIT License](./LICENSE).
