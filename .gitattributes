@@ -1,4 +1,6 @@
 *.md linguist-detectable=true
 *.md linguist-language=Markdown
 *.md linguist-documentation=false
+*.html linguist-detectable=true
+*.xml linguist-detectable=true
 *.html linguist-language=XML
