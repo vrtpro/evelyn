@@ -1,20 +1,20 @@
 lockfileVersion: 5.4
 
 specifiers:
-  '@iconify/vue': ^3.2.1
-  '@parcel/core': ^2.6.2
-  '@parcel/transformer-sass': ^2.6.2
-  '@parcel/transformer-vue': ^2.6.2
-  nprogress: ^0.2.0
-  parcel: ^2.6.2
-  vue: ^3.2.37
-  vue-router: ^4.1.1
+  '@iconify/vue': 3.2.1
+  '@parcel/core': 2.6.2
+  '@parcel/transformer-sass': 2.6.2
+  '@parcel/transformer-vue': 2.6.2
+  nprogress: 0.2.0
+  parcel: 2.6.2
+  vue: 3.2.37
+  vue-router: 4.1.2
 
 dependencies:
   '@iconify/vue': 3.2.1_vue@3.2.37
   nprogress: 0.2.0
   vue: 3.2.37
-  vue-router: 4.1.1_vue@3.2.37
+  vue-router: 4.1.2_vue@3.2.37
 
 devDependencies:
   '@parcel/core': 2.6.2
@@ -2090,8 +2090,8 @@ packages:
     resolution: {integrity: sha512-l8lCEmLcLYZh4nbunNZvQCJc5pv7+RCwa8q/LdUx8u7lsWvPDKmpodJAJNwkAhJC//dFY48KuIEmjtd4RViDrA==}
     dev: true
 
-  /vue-router/4.1.1_vue@3.2.37:
-    resolution: {integrity: sha512-Wp1mEf2xCwT0ez7o9JvgpfBp9JGnVb+dPERzXDbugTatzJAJ60VWOhJKifQty85k+jOreoFHER4r5fu062PhPw==}
+  /vue-router/4.1.2_vue@3.2.37:
+    resolution: {integrity: sha512-5BP1qXFncVRwgV/XnqzsKApdMjQPqWIpoUBdL1ynz8HyLxIX/UDAx7Ql2BjmA5CXT/p61JfZvkpiFWFpaqcfag==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
