@@ -1,4 +1,5 @@
 [![Project banner](https://cdn.upload.systems/uploads/AYax4RER.png)](https://evelyn.falcxxdev.ml)
+![Vercel status](https://img.shields.io/github/deployments/gifaldyazkaa/evelyn/Production?label=Vercel&logo=vercel&logoColor=%23000&style=for-the-badge)
 
 ## 🧠 Project philosophy
 
