@@ -1,7 +1,7 @@
 {
     "name": "evelyn",
     "version": "0.0.1",
-    "description": "Fan website about Evelyn",
+    "description": "Fan-made SPA website for Evelyn Vtuber (Hai Halo Epel)",
     "scripts": {
         "start": "parcel src/index.html --host=0.0.0.0 --port=8080",
         "build": "parcel build src/index.html"
