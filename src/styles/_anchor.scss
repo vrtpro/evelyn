@@ -1,0 +1,15 @@
+a {
+    color: $black;
+    text-decoration: underline;
+    transition: 0.1s ease-in-out;
+    &:hover {
+        color: $cyan-dark;
+    }
+    &.button {
+        color: $black;
+        text-decoration: none;
+        &:hover {
+            color: $black;
+        }
+    }
+}
