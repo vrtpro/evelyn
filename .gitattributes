@@ -8,3 +8,5 @@
 *.html linguist-detectable=true
 *.xml linguist-detectable=true
 *.html linguist-language=XML
+*.txt linguist-detectable=true
+*.txt linguist-language=Text
