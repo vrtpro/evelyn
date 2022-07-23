@@ -108,6 +108,9 @@ export default {
         justify-self: center;
         grid-column: 2 / 3;
         grid-row: 1 / 2;
+        img {
+            width: 100%;
+        }
         @include on-tablet {
             display: flex;
             width: 260px;
