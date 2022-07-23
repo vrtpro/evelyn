@@ -26,7 +26,11 @@ export default {
         <Container>
             <PageTitle>
                 <template #default>Fan art</template>
-                <template #sub>Curated Fan-made art from <u>#PienEpelPaint</u> hashtag at Twitter</template>
+                <template #sub
+                    >Curated Fan-made art from
+                    <a href="https://twitter.com/hashtag/PienEpelPaint" target="_blank">#PienEpelPaint</a> hashtag at
+                    Twitter</template
+                >
             </PageTitle>
             <ArtList>
                 <li v-for="art in arts">
