@@ -22,10 +22,13 @@ export default {
 </script>
 
 <template>
-    <Container>
-        <PageTitle>
+    <Container class="about-container">
+        <PageTitle class="about-title">
             <template #default>About</template>
         </PageTitle>
+        <div class="model">
+            <img src="../assets/model-trp.png" alt="Evelyn Model" />
+        </div>
         <div class="main-content">
             <div id="personality">
                 <h3 class="subtitle">Personality</h3>
@@ -64,7 +67,7 @@ export default {
                 </p>
             </div>
         </div>
-        <div v-if="expanded">
+        <div v-if="expanded" class="if-expanded">
             <div id="history">
                 <h3 class="subtitle mt">History</h3>
                 <h4 class="sub mt">Background</h4>
@@ -111,7 +114,7 @@ export default {
             </div>
             <Button @click="expand">See less information 👆</Button>
         </div>
-        <div v-else>
+        <div v-else class="expand-btn">
             <Button @click="expand">Expand more information 👇</Button>
         </div>
     </Container>
@@ -120,8 +123,38 @@ export default {
 <style lang="scss">
 @import '../styles/variable';
 @import '../styles/anchor';
+@import '../styles/mixin';
 
-.container {
+.about-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    @include on-mobile {
+        grid-template-columns: 1fr;
+        // gap: 20px;
+    }
+    .about-title {
+        grid-column: 1 / 1;
+        grid-row: 1 / 2;
+    }
+    .main-content {
+        // align-self: center;
+        grid-column: 1 / 2;
+        grid-row: 1 / 3;
+        margin-top: 50px;
+        @include on-mobile {
+            grid-column: 1 / 1;
+            grid-row: 1 / 3;
+        }
+    }
+    .if-expanded {
+        grid-column: 1 / 2;
+        grid-row: 3 / 3;
+    }
+    .expand-btn {
+        grid-column: 1 / 2;
+        grid-row: 3 / 3;
+    }
     .mt {
         margin-top: 15px;
     }
@@ -151,6 +184,23 @@ export default {
     .button {
         margin-top: 10px;
         margin-bottom: 20px;
+    }
+    .model {
+        justify-self: center;
+        grid-column: 2 / 2;
+        grid-row: 1 / 2;
+        img {
+            height: 720px;
+            width: 100%;
+        }
+        @include on-tablet {
+            display: flex;
+            width: 260px;
+            justify-content: center;
+        }
+        @include on-mobile {
+            display: none;
+        }
     }
 }
 </style>
