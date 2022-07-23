@@ -119,6 +119,8 @@ export default {
 
 <style lang="scss">
 @import '../styles/variable';
+@import '../styles/anchor';
+
 .container {
     .mt {
         margin-top: 15px;
@@ -137,10 +139,6 @@ export default {
         font-weight: 500;
         font-size: 18px;
         margin-top: 10px;
-        a {
-            color: $black;
-            text-decoration: underline;
-        }
         li {
             &.list {
                 font-family: $lexend;
