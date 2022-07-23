@@ -13,6 +13,11 @@ export default {
         HeaderDefault,
         HeaderOverlay,
     },
+    watch: {
+        $route(to, from) {
+            this.overlay = false;
+        },
+    },
 };
 </script>
 
