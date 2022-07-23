@@ -13,8 +13,8 @@ See our progress for this project. You can see and track our [Project Roadmap](h
 
 A big thanks to all contributors listed below. They are helping and made a huge changes to this project. Without these contributors, this project would not have been completed as expected. Once again, thanks!
 
--   [Adi Rafi Ramdhani](https://www.instagram.com/adirafi.r/)
--   [HabibRZ 206](https://www.instagram.com/habibrz26/)
+-   [Adi Rafi Ramdhani](https://instagram.com/adirafi.r/)
+-   [HabibRZ 206](https://instagram.com/habibrz26/)
 -   [BayuDC](https://github.com/BayuDC)
 
 ## 📃 License
