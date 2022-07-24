@@ -2,6 +2,7 @@
 import Container from '../components/Container.vue';
 import PageTitle from '../components/PageTitle.vue';
 import Button from '../shared/Button.vue';
+import socials from '../data/socials';
 import data from '../data/general';
 
 export default {
@@ -11,6 +12,7 @@ export default {
         return {
             expanded: false,
             data,
+            socials,
         };
     },
     methods: {
@@ -109,6 +111,15 @@ export default {
                         <ul>
                             <li class="list" v-for="lang in data.languages">{{ lang }}</li>
                         </ul>
+                    </li>
+                </ul>
+            </div>
+            <div id="socials">
+                <h3 class="subtitle mt">Socials</h3>
+                <p class="content">Evelyn is discoverable at social media. Make sure to follow her social accounts!</p>
+                <ul class="content">
+                    <li class="list" v-for="social in socials">
+                        {{ social.name }}: <a :href="social.url" target="_blank">@{{ social.username }}</a>
                     </li>
                 </ul>
             </div>
