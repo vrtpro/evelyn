@@ -32,7 +32,7 @@ export default {
                     I am aspire to become<br />
                     your best mood booster!
                 </h1>
-                <Button :href="socials.youtube">Join Epelables</Button>
+                <Button :href="socials[0].url">Join Epelables</Button>
             </div>
         </Container>
     </section>
