@@ -5,6 +5,7 @@ import NProgress from 'nprogress';
 import Home from '../pages/Home.vue';
 import FanArt from '../pages/FanArt.vue';
 import About from '../pages/About.vue';
+import NotFound from '../pages/NotFound.vue';
 
 const routes: Routes = [
     {
@@ -24,6 +25,12 @@ const routes: Routes = [
         name: 'Fanart',
         component: FanArt,
         meta: { title: 'Fan art | Hai Halo Epel' },
+    },
+    {
+        path: '/:catchAll(.*)',
+        name: 'NotFound',
+        component: NotFound,
+        meta: { title: 'Page not Found | Hai Halo Epel' },
     },
 ];
 
