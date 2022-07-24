@@ -5,7 +5,6 @@ import ArtCard from '../components/ArtCard.vue';
 import ArtList from '../components/ArtList.vue';
 import ImageView from '../components/ImageView.vue';
 import arts from '../data/fanarts.ts';
-import ImageView1 from '../components/ImageView.vue';
 
 export default {
     name: 'FanArt',
@@ -15,7 +14,6 @@ export default {
         ArtCard,
         ArtList,
         ImageView,
-        ImageView1,
     },
     data() {
         return {
