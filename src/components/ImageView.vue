@@ -5,10 +5,15 @@ export default {
     name: 'ImageView',
     props: ['arts', 'isView'],
     components: { Icon },
+    data() {
+        return {
+            view: this.isView,
+        };
+    },
     methods: {
         update() {
-            this.isView = !this.isView;
-            this.$emit('boolUpdate', this.isView);
+            this.View = !this.View;
+            this.$emit('boolUpdate', this.View);
         },
     },
 };
