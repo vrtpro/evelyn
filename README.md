@@ -3,13 +3,13 @@
 
 ## 🧠 Project philosophy
 
-The beginning of this project was made to introduce [Evelyn](https://youtube.com/c/HaiHaloEpel) to a larger audience with a website. It was also made for tribute purposes. Besides the formal reason, another reason is because i simps her.
+The beginning of this project was made to introduce [Evelyn](https://youtube.com/c/HaiHaloEpel) to a larger audience with a website. It was also made for tribute purposes. Besides the formal reason, another reason is because i simp her.
 
 ## 🍎 Installing
 
 ### 🛠️ Requirements
 
-A [node.js](https://nodejs.org) >= v12.16.2 setup with [pnpm](https://pnpm.io) is highly recommended.
+A [node.js](https://nodejs.org) >= 12.16.2 setup with [pnpm](https://pnpm.io) is highly recommended.
 
 ### 📦 Install dependencies
 
@@ -50,7 +50,7 @@ $ pnpm preview
 
 ## 💳 Credits
 
-A big thanks to all contributors listed below. They are helping and made a huge changes to this project. Without these contributors, this project would not have been completed as expected. Once again, thanks!
+Big thanks to all contributors listed below. They are helping and made a huge changes to this project. Without these contributors, this project would not have been completed as expected. Once again, thanks!
 
 -   [Adi Rafi Ramdhani](https://instagram.com/adirafi.r/)
 -   [HabibRZ 206](https://instagram.com/habibrz26/)
@@ -58,6 +58,6 @@ A big thanks to all contributors listed below. They are helping and made a huge 
 
 ## 📃 License
 
-Keep in mind that this project is non-commercial and Free-to-use (Modify, Distribute, Private use) as long as the project owner's credit, and the names of contributors included.
+Keep in mind that this project is non-commercial and Free-to-use (Modify, Distribute, Private use) as long as the project owner's credit, and name of contributors included.
 
 [Evelyn website](#) is Licensed under [MIT License](./LICENSE).
