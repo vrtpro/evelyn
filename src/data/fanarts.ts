@@ -5,7 +5,7 @@ const arts: Arts = [
         img: 'https://pbs.twimg.com/media/FRmAB6yagAI0br0.jpg',
         artist: {
             username: '@ElaineCelestia',
-            url: 'https://twitterc.com/ElaineCelestia',
+            url: 'https://twitter.com/ElaineCelestia',
         },
     },
     {
