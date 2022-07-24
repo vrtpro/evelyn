@@ -19,11 +19,14 @@ export default {
         return {
             arts,
             view: false,
+            img: '',
         };
     },
     methods: {
-        toggle() {
+        toggle(img) {
             this.view = !this.view;
+            this.img = img;
+            document.body.setAttribute('style', 'overflow: hidden;');
         },
         boolUpdate(value) {
             this.view = value;
@@ -34,9 +37,11 @@ export default {
 
 <template>
     <section class="fanart">
-        <div class="viewer" v-if="view">
-            <ImageView :arts="arts" :isView="view" @boolUpdate="boolUpdate()" />
-        </div>
+        <Transition>
+            <div class="viewer" v-if="view">
+                <ImageView :arts="arts" :isView="view" :img="img" @boolUpdate="boolUpdate()" />
+            </div>
+        </Transition>
         <Container>
             <PageTitle>
                 <template #default>Fan art</template>
@@ -49,7 +54,7 @@ export default {
             <ArtList>
                 <li v-for="art in arts">
                     <ArtCard
-                        @click="toggle()"
+                        @click="toggle(art.img)"
                         :img="art.img"
                         :artist="art.artist.username"
                         :artistUrl="art.artist.url"
@@ -63,5 +68,14 @@ export default {
 <style lang="scss">
 .container {
     margin-bottom: 20px;
+}
+.v-enter-active,
+.v-leave-active {
+    transition: opacity 0.1s ease;
+}
+
+.v-enter-from,
+.v-leave-to {
+    opacity: 0;
 }
 </style>
