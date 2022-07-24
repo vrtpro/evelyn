@@ -37,11 +37,11 @@ export default {
 
 <template>
     <section class="fanart">
-        <Transition>
+        <transition name="fade" mode="out-in">
             <div class="viewer" v-if="view">
                 <ImageView :arts="arts" :isView="view" :img="img" @boolUpdate="boolUpdate()" />
             </div>
-        </Transition>
+        </transition>
         <Container>
             <PageTitle>
                 <template #default>Fan art</template>
@@ -69,13 +69,12 @@ export default {
 .container {
     margin-bottom: 20px;
 }
-.v-enter-active,
-.v-leave-active {
-    transition: opacity 0.1s ease;
-}
-
-.v-enter-from,
-.v-leave-to {
+.fade-enter-from,
+.fade-leave-to {
     opacity: 0;
+}
+.fade-enter-active,
+.fade-leave-active {
+    transition: opacity 0.2s ease-out;
 }
 </style>
