@@ -25,7 +25,7 @@ nav {
         padding: 10px 20px;
         border-radius: 10px;
         background: rgba($white, 0.4);
-        // TODO background blur
+        backdrop-filter: blur(2px);
 
         @include on-tablet {
             gap: 40px;
