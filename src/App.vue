@@ -1,12 +1,14 @@
 <template ref="false">
-    <Loading v-if="show" />
-    <router-view v-else v-slot="{ Component }">
-        <Header />
-        <transition name="fade" mode="out-in">
-            <component :is="Component"></component>
-        </transition>
-        <Footer />
-    </router-view>
+    <transition name="fade" mode="out-in">
+        <Loading v-if="show" />
+        <router-view v-else v-slot="{ Component }">
+            <Header />
+            <transition name="fade" mode="out-in">
+                <component :is="Component"></component>
+            </transition>
+            <Footer />
+        </router-view>
+    </transition>
 </template>
 
 <script lang="ts">
