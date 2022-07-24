@@ -5,9 +5,48 @@
 
 The beginning of this project was made to introduce [Evelyn](https://youtube.com/c/HaiHaloEpel) to a larger audience with a website. It was also made for tribute purposes. Besides the formal reason, another reason is because i simps her.
 
-## 🚧 Project progress
+## 🍎 Installing
 
-See our progress for this project. You can see and track our [Project Roadmap](https://github.com/gifaldyazkaa/evelyn/projects/1) in General, or [UI Roadmap](https://github.com/gifaldyazkaa/evelyn/projects/2) for this project. You can see our To-do list, In progress, and Done things there.
+### 🛠️ Requirements
+
+A [node.js](https://nodejs.org) >= v12.16.2 setup with [pnpm](https://pnpm.io) is highly recommended.
+
+### 📦 Install dependencies
+
+```bash
+$ pnpm install
+```
+
+### 🏃 Start development server
+
+```bash
+$ pnpm dev
+#
+# Server running at http://[hostname]:8080
+# ✨ Built in 350ms
+```
+
+### ⚡ Optimizing for Production
+
+```bash
+$ pnpm generate
+#
+# ✨ Built in 350ms
+```
+
+```bash
+# Preview build result
+$ pnpm preview
+#
+# ┌───────────────────────────────────────────────────┐
+# │                                                   │
+# │   Serving!                                        │
+# │                                                   │
+# │   - Local:            http://localhost:8080       │
+# │   - On Your Network:  http://[hostname]:8080      │
+# │                                                   │
+# └───────────────────────────────────────────────────┘
+```
 
 ## 💳 Credits
 
