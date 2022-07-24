@@ -39,6 +39,7 @@ export default {
     img {
         display: block;
         width: 100%;
+        cursor: zoom-in;
     }
     .desc {
         padding: 8px 0 10px 0;
