@@ -23,7 +23,7 @@ export default {
 <template>
     <div class="root" @click.self="update()">
         <button class="exit" @click="update()">
-            <Icon name="bi:x-lg" />
+            <Icon name="eva:close-outline" />
         </button>
         <figure class="img">
             <img :src="img" alt="Image" />
@@ -36,7 +36,7 @@ export default {
 
 .root {
     position: fixed;
-    background: rgba($white, 0.4);
+    background: rgba($black, 0.5);
     backdrop-filter: blur(4px);
     height: 100%;
     width: 100%;
@@ -44,7 +44,7 @@ export default {
     max-width: 100%;
     top: 0;
     left: 0;
-    z-index: 10;
+    z-index: 1;
     overflow: hidden;
     .img {
         display: flex;
@@ -60,7 +60,7 @@ export default {
         position: absolute;
         &.exit {
             right: 0;
-            margin: 10px 10px 0 0;
+            margin: 30px 20px 0 0;
         }
     }
 }
