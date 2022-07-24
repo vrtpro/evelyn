@@ -5,7 +5,8 @@
     "private": true,
     "scripts": {
         "dev": "parcel src/index.html --host=0.0.0.0 --port=8080",
-        "generate": "parcel build src/index.html && cp src/seo/* dist"
+        "generate": "parcel build src/index.html && cp src/seo/* dist",
+        "preview": "serve -sp 8080 dist"
     },
     "repository": {
         "type": "git",
@@ -18,7 +19,8 @@
         "@parcel/core": "2.6.2",
         "@parcel/transformer-sass": "2.6.2",
         "@parcel/transformer-vue": "2.6.2",
-        "parcel": "2.6.2"
+        "parcel": "2.6.2",
+        "serve": "14.0.1"
     },
     "dependencies": {
         "@iconify/vue": "3.2.1",
