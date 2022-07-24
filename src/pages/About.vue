@@ -116,7 +116,7 @@ export default {
             </div>
             <div id="socials">
                 <h3 class="subtitle mt">Socials</h3>
-                <p class="content">Evelyn is discoverable at social media. Make sure to follow her account!</p>
+                <p class="content">Evelyn is discoverable at social media. Make sure to follow her social accounts!</p>
                 <ul class="content">
                     <li class="list" v-for="social in socials">
                         {{ social.name }}: <a :href="social.url" target="_blank">@{{ social.username }}</a>
