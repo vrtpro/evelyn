@@ -3,7 +3,7 @@ import Icon from '../shared/Icon.vue';
 
 export default {
     name: 'ImageView',
-    props: ['arts', 'isView'],
+    props: ['arts', 'isView', 'img'],
     components: { Icon },
     data() {
         return {
@@ -12,8 +12,9 @@ export default {
     },
     methods: {
         update() {
-            this.View = !this.View;
-            this.$emit('boolUpdate', this.View);
+            this.view = !this.view;
+            this.$emit('boolUpdate', this.view);
+            document.body.removeAttribute('style');
         },
     },
 };
@@ -24,9 +25,9 @@ export default {
         <button class="exit" @click="update()">
             <Icon name="bi:x-lg" />
         </button>
-        <div class="img">
-            <img :src="arts[0].img" alt="Image" />
-        </div>
+        <figure class="img">
+            <img :src="img" alt="Image" />
+        </figure>
     </div>
 </template>
 
@@ -44,21 +45,21 @@ export default {
     top: 0;
     left: 0;
     z-index: 10;
+    overflow: hidden;
     .img {
         display: flex;
-        height: 680px;
-        align-items: center;
-        justify-content: center;
-    }
-    img {
-        display: block;
-        height: 450px;
+        height: 100%;
+        img {
+            margin: auto;
+            max-width: 100%;
+            max-height: 100%;
+        }
     }
     button {
         cursor: pointer;
-        display: block;
+        position: absolute;
         &.exit {
-            float: right;
+            right: 0;
             margin: 10px 10px 0 0;
         }
     }
