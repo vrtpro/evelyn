@@ -1,5 +1,5 @@
 [![Project banner](https://cdn.upload.systems/uploads/AYax4RER.png)](https://evelyn.falcxxdev.ml)
-![Vercel status](https://img.shields.io/github/deployments/gifaldyazkaa/evelyn/Production?label=Vercel&logo=vercel&logoColor=%23000&style=for-the-badge)
+![Vercel status](https://img.shields.io/github/deployments/gifaldyazkaa/evelyn/Production?label=Vercel&logo=vercel&logoColor=%23000&style=for-the-badge) ![CI Status](https://img.shields.io/github/workflow/status/gifaldyazkaa/evelyn/%5BPrettier%5D%20Format%20check?label=CI&logo=github-actions&style=for-the-badge)
 
 ## 🧠 Project philosophy
 
