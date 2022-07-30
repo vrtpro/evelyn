@@ -3,7 +3,7 @@
 
 ## 🧠 Project philosophy
 
-The beginning of this project was made to introduce [Evelyn](https://youtube.com/c/HaiHaloEpel) to a larger audience with a website. It was also made for tribute purposes. Besides the formal reason, another reason is because i simp her.
+The beginning of this project was made to introduce [Evelyn](https://youtube.com/c/HaiHaloEpel) to a larger audience with a website. It was also made for tribute purposes.
 
 ## 🍎 Installing
 
@@ -37,27 +37,18 @@ $ pnpm generate
 ```bash
 # Preview build result
 $ pnpm preview
-#
-# ┌───────────────────────────────────────────────────┐
-# │                                                   │
-# │   Serving!                                        │
-# │                                                   │
-# │   - Local:            http://localhost:8080       │
-# │   - On Your Network:  http://[hostname]:8080      │
-# │                                                   │
-# └───────────────────────────────────────────────────┘
 ```
 
 ## 💳 Credits
 
-Big thanks to all contributors listed below. They are helping and made a huge changes to this project. Without these contributors, this project would not have been completed as expected. Once again, thanks!
+Big thanks to all contributors listed below. They are helping and made a huge changes to this project. Without these contributors, this project would not have been completed as expected.
 
 -   [Adi Rafi Ramdhani](https://instagram.com/adirafi.r/)
--   [HabibRZ 206](https://instagram.com/habibrz26/)
+-   [Harz206](https://instagram.com/habibrz26/)
 -   [BayuDC](https://github.com/BayuDC)
 
 ## 📃 License
 
 Keep in mind that this project is non-commercial and Free-to-use (Modify, Distribute, Private use) as long as the project owner's credit, and name of contributors included.
 
-[Evelyn website](#) is Licensed under [MIT License](./LICENSE).
+[Evelyn website](https://evelyn.falcxxdev.ml) is Licensed under [MIT License](./LICENSE).
