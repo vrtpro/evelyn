@@ -31,7 +31,7 @@ export default {
         <Container>
             <h1>
                 <router-link :to="{ name: 'Home' }">
-                    <img :src="logo" alt="Evelyn Logo" />
+                    <img :src="logo" height="60px" alt="Evelyn Logo" />
                 </router-link>
             </h1>
             <button @click="() => $emit('toggle')">
