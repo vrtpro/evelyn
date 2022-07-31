@@ -28,5 +28,5 @@ button {
     border-radius: 5px;
     padding: 4px;
     background: rgba($white, 0.4);
-    // TODO background blur
+    backdrop-filter: blur(2px);
 }
