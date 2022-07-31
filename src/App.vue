@@ -29,9 +29,7 @@ export default {
         };
     },
     mounted() {
-        setTimeout(() => {
-            this.show = !this.show;
-        }, 2000);
+        window.addEventListener('load', () => (this.show = !this.show));
     },
 };
 </script>
