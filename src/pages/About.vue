@@ -29,7 +29,7 @@ export default {
             <template #default>About</template>
         </PageTitle>
         <div class="model">
-            <img src="../assets/model-trp.png" alt="Evelyn Model" />
+            <img src="../assets/model-trp.webp" alt="Evelyn Model" />
         </div>
         <div class="main-content">
             <div id="personality">
