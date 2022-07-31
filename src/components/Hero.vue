@@ -21,7 +21,7 @@ export default {
     <section class="hero">
         <Container>
             <div class="model">
-                <img src="../assets/model.webp" width="100%" alt="Evelyn Model" />
+                <img src="../assets/model.webp" height="0" width="100%" alt="Evelyn Model" />
             </div>
             <div class="info">
                 <p>
@@ -110,6 +110,7 @@ export default {
         grid-row: 1 / 2;
         img {
             width: 100%;
+            height: auto;
         }
         @include on-tablet {
             display: flex;

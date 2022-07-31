@@ -31,7 +31,7 @@ export default {
         <Container>
             <h1>
                 <router-link :to="{ name: 'Home' }">
-                    <img :src="logo" height="60px" alt="Evelyn Logo" />
+                    <img :src="logo" height="60px" width="0" alt="Evelyn Logo" />
                 </router-link>
             </h1>
             <button @click="() => $emit('toggle')" aria-label="Toggle navigation">
@@ -58,6 +58,7 @@ header {
         font-size: 20px;
         img {
             height: 60px;
+            width: 100%;
         }
     }
 
