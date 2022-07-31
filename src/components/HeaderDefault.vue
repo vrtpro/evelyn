@@ -3,7 +3,7 @@ import Container from './Container.vue';
 import Navigation from './Navigation.vue';
 
 import Icon from '../shared/Icon.vue';
-import logo from '../assets/logo.png';
+import logo from '../assets/logo.webp';
 
 export default {
     name: 'HeaderDefault',

@@ -21,7 +21,7 @@ export default {
     <section class="hero">
         <Container>
             <div class="model">
-                <img src="../assets/model.png" alt="Evelyn Model" />
+                <img src="../assets/model.webp" alt="Evelyn Model" />
             </div>
             <div class="info">
                 <p>
