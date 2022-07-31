@@ -34,7 +34,7 @@ export default {
                     <img :src="logo" height="60px" alt="Evelyn Logo" />
                 </router-link>
             </h1>
-            <button @click="() => $emit('toggle')">
+            <button @click="() => $emit('toggle')" aria-label="Toggle navigation">
                 <Icon :name="toggleIcon" />
             </button>
             <Navigation />
