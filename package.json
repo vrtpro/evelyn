@@ -16,10 +16,10 @@
     "author": "Gifaldy Azka <me@falcxxdev.ml>",
     "license": "MIT",
     "devDependencies": {
-        "@parcel/core": "2.6.2",
-        "@parcel/transformer-sass": "2.6.2",
-        "@parcel/transformer-vue": "2.6.2",
-        "parcel": "2.6.2",
+        "@parcel/core": "2.7.0",
+        "@parcel/transformer-sass": "2.7.0",
+        "@parcel/transformer-vue": "2.7.0",
+        "parcel": "2.7.0",
         "serve": "14.0.1"
     },
     "dependencies": {
