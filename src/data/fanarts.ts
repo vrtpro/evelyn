@@ -64,6 +64,27 @@ const arts: Arts = [
             url: 'https://twitter.com/SakurarinMochi',
         },
     },
+    {
+        img: 'https://pbs.twimg.com/media/FaUgYNOaAAE-PXG.jpg',
+        artist: {
+            username: '@pine_pinepin',
+            url: 'https://twitter.com/pine_pinepin',
+        },
+    },
+    {
+        img: 'https://pbs.twimg.com/media/FZsxffAUYAEegeF.jpg',
+        artist: {
+            username: '@SakurarinMochi',
+            url: 'https://twitter.com/SakurarinMochi',
+        },
+    },
+    {
+        img: 'https://pbs.twimg.com/media/EfnGLyOVoAEUOaf.jpg',
+        artist: {
+            username: '@UpMocks',
+            url: 'https://twitter.com/UpMocks',
+        },
+    },
 ];
 
 export default arts;
