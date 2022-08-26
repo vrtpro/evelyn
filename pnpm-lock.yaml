@@ -9,13 +9,13 @@ specifiers:
   parcel: 2.7.0
   serve: 14.0.1
   vue: 3.2.37
-  vue-router: 4.1.4
+  vue-router: 4.1.5
 
 dependencies:
   '@iconify/vue': 3.2.1_vue@3.2.37
   nprogress: 0.2.0
   vue: 3.2.37
-  vue-router: 4.1.4_vue@3.2.37
+  vue-router: 4.1.5_vue@3.2.37
 
 devDependencies:
   '@parcel/core': 2.7.0
@@ -2592,8 +2592,8 @@ packages:
     engines: {node: '>= 0.8'}
     dev: true
 
-  /vue-router/4.1.4_vue@3.2.37:
-    resolution: {integrity: sha512-UgYen33gOtwT3cOG1+yRen+Brk9py8CSlC9LEa3UjvKZ4EAoSo8NjZPDeDnmNerfazorHIJG1NC7qdi1SuQJnQ==}
+  /vue-router/4.1.5_vue@3.2.37:
+    resolution: {integrity: sha512-IsvoF5D2GQ/EGTs/Th4NQms9gd2NSqV+yylxIyp/OYp8xOwxmU8Kj/74E9DTSYAyH5LX7idVUngN3JSj1X4xcQ==}
     peerDependencies:
       vue: ^3.2.0
     dependencies:
