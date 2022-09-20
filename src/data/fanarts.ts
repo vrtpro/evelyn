@@ -85,6 +85,13 @@ const arts: Arts = [
             url: 'https://twitter.com/UpMocks',
         },
     },
+    {
+        img: 'https://pbs.twimg.com/media/Fc_gzamaIAA108D.jpg',
+        artist: {
+            username: '@pine_pinepin',
+            url: 'https://twitter.com/pine_pinepin',
+        },
+    },
 ];
 
 export default arts;
