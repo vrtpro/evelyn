@@ -9,8 +9,8 @@ The beginning of this project was made to introduce [Evelyn](https://youtube.com
 
 Due to [Project Roadmap](https://github.com/gifaldyazkaa/evelyn/projects/1), i want to tell this project to her (Evelyn) & got showcased to [WPU (Web Programming UNPAS)](https://www.youtube.com/c/WebProgrammingUNPAS)'s Project Showcase. Here are some links referring to these showcases.
 
--   at Twitter ([See tweet](https://twitter.com/falcxxdev/status/1552954667172511744))\*
--   at WPU (coming soon)
+-   on Twitter ([See tweet](https://twitter.com/falcxxdev/status/1552954667172511744))\*
+-   on WPU (coming soon)
 
 \*: This fails due to unknown reason. Idk, i have tried many ways to get this tweet noticed. By tagging her, including hashtags, etc. But it fails and does not getting noticed until right now. Nice try to myself lol 🙃
 
