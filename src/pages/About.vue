@@ -33,7 +33,7 @@ export default {
         </div>
         <div class="main-content">
             <div id="personality">
-                <h3 class="subtitle">Personality</h3>
+                <h3 class="subtitle">💙 Personality</h3>
                 <p class="content">
                     Evelyn has a warm and friendly personality towards her viewers. She has a "good girl" persona. She's
                     sweet, caring, full of affection, and tends to avoid sensitive issues, as well as strong or bad
@@ -50,7 +50,7 @@ export default {
                 </p>
             </div>
             <div id="appearance">
-                <h3 class="subtitle mt">Appearance</h3>
+                <h3 class="subtitle mt">💅 Appearance</h3>
                 <p class="content">
                     Evelyn's first appearance is a young woman with a relatively slim body, oval face, red eyes, and
                     long sea blue hair with an ahoge. Her dominant color scheme is blue, pink and white.
@@ -71,7 +71,7 @@ export default {
         </div>
         <div v-if="expanded" class="if-expanded">
             <div id="history">
-                <h3 class="subtitle mt">History</h3>
+                <h3 class="subtitle mt">📜 History</h3>
                 <h4 class="sub mt">Background</h4>
                 <p class="content">
                     On 20 September 2021, she and fellow VTubers in her team (Lily Ifeta, Chloe Pawapua and Reynard
@@ -85,7 +85,7 @@ export default {
                 </p>
             </div>
             <div id="personal">
-                <h3 class="subtitle mt">Personal Details</h3>
+                <h3 class="subtitle mt">👤 Personal details</h3>
                 <ul class="content">
                     <li class="list">
                         Name: {{ data.name.origin }}
@@ -115,7 +115,7 @@ export default {
                 </ul>
             </div>
             <div id="socials">
-                <h3 class="subtitle mt">Socials</h3>
+                <h3 class="subtitle mt">#️⃣ Socials</h3>
                 <p class="content">Evelyn is discoverable at social media. Make sure to follow her social accounts!</p>
                 <ul class="content">
                     <li class="list" v-for="social in socials">

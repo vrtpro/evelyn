@@ -46,8 +46,8 @@ export default {
             <PageTitle>
                 <template #default>Fan art</template>
                 <template #sub
-                    >Curated Fan-made art from
-                    <a href="https://twitter.com/hashtag/PienEpelPaint" target="_blank">#PienEpelPaint</a> hashtag at
+                    >🖼️ Curated Fan-made art from
+                    <a href="https://twitter.com/hashtag/PienEpelPaint" target="_blank">#PienEpelPaint</a> hashtag on 🐦
                     Twitter</template
                 >
             </PageTitle>
