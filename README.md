@@ -1,5 +1,5 @@
 [![Project banner](https://cdn.upload.systems/uploads/AYax4RER.png)](https://evelyn.falcxxdev.ml)
-![Vercel status](https://img.shields.io/github/deployments/gifaldyazkaa/evelyn/Production?label=Vercel&logo=vercel&logoColor=%23000&style=for-the-badge) ![CI Status](https://img.shields.io/github/actions/workflow/status/gifaldyazkaa/evelyn/lint.yml?branch=master&label=CI&logo=github-actions&style=for-the-badge)
+![CI Status](https://img.shields.io/github/actions/workflow/status/gifaldyazkaa/evelyn/lint.yml?branch=master&label=CI&logo=github-actions&style=for-the-badge) [![Netlify Status](https://api.netlify.com/api/v1/badges/9867cb1e-0644-4e66-b5f5-261249607548/deploy-status)](https://app.netlify.com/sites/evelyn-pro/deploys)
 
 ## 🧠 Project philosophy
 
