@@ -1,4 +1,4 @@
-name: '[Prettier] Format check'
+name: 'Lint'
 on:
     push:
         branches:
@@ -40,8 +40,5 @@ jobs:
                   restore-keys: |
                       ${{ runner.os }}-pnpm-store-
 
-            - name: Install Prettier
-              run: pnpm add prettier -D
-
             - name: Check Format
-              run: pnpx prettier -c .
+              run: pnpm dlx prettier --config ./.prettierrc.yml -c .
