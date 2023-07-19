@@ -35,7 +35,9 @@ export default {
         transform: translateY(5px);
     }
     &:active {
-        box-shadow: 0 -5px 5px -5px $black, -5px 0 5px -5px $black;
+        box-shadow:
+            0 -5px 5px -5px $black,
+            -5px 0 5px -5px $black;
     }
 
     @include on-tablet {

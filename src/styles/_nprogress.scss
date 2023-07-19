@@ -18,7 +18,9 @@
         right: 0px;
         width: 100px;
         height: 100%;
-        box-shadow: 0 0 10px $cyan, 0 0 5px $cyan;
+        box-shadow:
+            0 0 10px $cyan,
+            0 0 5px $cyan;
         opacity: 1;
 
         -webkit-transform: rotate(3deg) translate(0px, -4px);
