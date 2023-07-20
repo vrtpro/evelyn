@@ -1,5 +1,5 @@
-[![Project banner](https://cdn.upload.systems/uploads/AYax4RER.png)](https://evelyn.falcxxdev.ml)
-![CI Status](https://img.shields.io/github/actions/workflow/status/vrtpro/evelyn/lint.yml?branch=master&label=CI&logo=github-actions&style=for-the-badge) [![Netlify Status](https://api.netlify.com/api/v1/badges/9867cb1e-0644-4e66-b5f5-261249607548/deploy-status)](https://app.netlify.com/sites/evelyn-pro/deploys)
+[![Project banner](https://cdn.upload.systems/uploads/AYax4RER.png)](https://evelyn.falcxxdev.cyou)
+![CI Status](https://img.shields.io/github/actions/workflow/status/vrtpro/evelyn/lint.yml?branch=master&label=CI&logo=github-actions&style=flat&labelColor=black) [![Netlify Status](https://api.netlify.com/api/v1/badges/9867cb1e-0644-4e66-b5f5-261249607548/deploy-status)](https://app.netlify.com/sites/evelyn-pro/deploys)
 
 ## 🧠 Project philosophy
 
